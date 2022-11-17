@@ -1,0 +1,33 @@
+{
+	"item": [
+		{
+			"name": "RewardUsersReferrer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"464ccet5d885538ff3fff8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://locahost:{{PORT}}/app/RewardUsersReferrer",
+					"protocol": "http",
+					"host": [
+						"locahost"
+					],
+					"port": "{{PORT}}",
+					"path": [
+						"app",
+						"RewardUsersReferrer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
